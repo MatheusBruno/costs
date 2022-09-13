@@ -1,3 +1,7 @@
+# Projeto de Aprendizado Costs
+Esta sendo desenvolvido para aprendizado de React.
+Vai ser criado um site de orçamentos de projetos ligado a um banco de dados em Json-Server.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
