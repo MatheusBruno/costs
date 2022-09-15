@@ -1,13 +1,17 @@
 import { Link } from 'react-router-dom';
 import style from './NavBar.module.css';
 import logo from '../imgs/costs_logo.png';
+import Tilt from 'react-parallax-tilt';
 
 function NavBar(){
     return(
         <nav className={style.main}>
 
+            
             <Link to="/" className={style.linkimg}>
-                <img src={logo} className={style.logo}></img>
+                <Tilt>
+                    <img src={logo} className={style.logo}></img>
+                </Tilt>
             </Link>
 
             <ul className={style.alinhamento}>
