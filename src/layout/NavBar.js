@@ -10,7 +10,7 @@ function NavBar(){
             
             <Link to="/" className={style.linkimg}>
                 <Tilt>
-                    <img src={logo} className={style.logo}></img>
+                    <img src={logo} className={style.logo} alt="logo"></img>
                 </Tilt>
             </Link>
 
