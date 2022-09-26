@@ -1,20 +1,22 @@
-function ProjectForm(){
+import Input from '../form/Input';
+import Select from '../form/Select';
+import SubmitButton from '../form/SubmitButton';
+import style from './ProjectForm.module.css';
+
+function ProjectForm({btnText}){
     return(
-        <form>
+        <form className={style.form}>
             <div>
-                <input type="text" placeholder="Insira o nome do projeto"></input>
+                <Input type="text" name="name" placeholder="Insira nome do projeto" text="Nome do Projeto"/>
             </div>
             <div>
-                <input type="number" placeholder="Insira o orçamento total"></input>
+                <Input type="number" name="budget" placeholder="Insira o orçamento total" text="Defina um valor inicial"/>
             </div>
             <div>
-            <select name="category_id">
-                <option disabled>Selecionar a categoria</option>
-            </select>
+                <Select name="category_id" text="Selecione a categoria" />
             </div>
-            <div>
-                <input type="submit" value="Salvar Projeto"></input>
-            </div>
+
+            <SubmitButton text={btnText}/>
         </form>
     )
 }
