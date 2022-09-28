@@ -9,6 +9,7 @@ import NewProject from './pages/NewProject';
 import NavBar from './layout/NavBar';
 import Footer from './layout/Footer'
 import Container from './layout/Container';
+import Project from './pages/Project';
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home />}></Route>
           <Route path='/newproject' element={<NewProject />}></Route>
-          <Route path='/empresa' element={<Empresa/>}></Route>
-          <Route path='/contato' element={<Contato/>}></Route>
+          <Route path='/project' element={<Project />}></Route>
+          <Route path='/empresa' element={<Empresa />}></Route>
+          <Route path='/contato' element={<Contato />}></Route>
         </Routes>
       </Container>
       <Footer />

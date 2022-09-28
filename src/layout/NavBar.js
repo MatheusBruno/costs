@@ -17,7 +17,7 @@ function NavBar(){
             <ul className={style.alinhamento}>
                 <Link to="/" className={style.links}>Home</Link>
                 <Link to="/empresa" className={style.links}>Empresa</Link>
-                <Link to="/newproject" className={style.links}>Novo Projeto</Link>
+                <Link to="/project" className={style.links}>Projeto</Link>
                 <Link to="/Contato" className={style.links}>Contato</Link>
             </ul>
         </nav>

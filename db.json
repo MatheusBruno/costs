@@ -1,21 +1,33 @@
 {
-    "project":[],
-    "categories": [
-        {
-            "id" : 1,
-            "name" : "Infraestrutura"
-        },
-        {
-            "id" : 2,
-            "name" : "Desenvolvimento"
-        },
-        {
-            "id" : 3,
-            "name" : "Design"
-        },
-        {
-            "id" : 4,
-            "name" : "Planejamento"
-        }
-    ]
+  "project": [
+    {
+      "name": "Carro novo",
+      "budget": "15000",
+      "categoria": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "service": [],
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infraestrutura"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
 }
