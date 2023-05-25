@@ -1,4 +1,4 @@
-# Projeto de Aprendizado Costs
+# Projeto de Aprendizado React
 Esta sendo desenvolvido para aprendizado de React.
 Vai ser criado um site de orçamentos de projetos ligado a um banco de dados em Json-Server.
 
